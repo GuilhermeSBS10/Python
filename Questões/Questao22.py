@@ -1,0 +1,9 @@
+"""
+FAÇA UM PROGRAMA QUE LEIA A CIDADE QUE O USUÁRIO NASCEU E DIGA VERDADEIRO OU
+FALSO DEPENDENDO SE COMEÇAR COM "SANTO", MAS FAÇA DE UMA FORMA QUE NAO IMPORTE
+COMO O USUÁRIO RESPONDER VAI CONSEGUIR LER
+"""
+
+cidade = str(input('Qual a cidade que você nesceu? ')).strip()
+
+print(cidade[:5].upper() == 'SANTO')
